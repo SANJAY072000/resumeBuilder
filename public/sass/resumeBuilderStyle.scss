@@ -53,7 +53,28 @@ og3:#758AA2
 
 // for device of xs width
 body{
-
+header{
+h1{
+  @include header-h1();
+}
+.fa-file-text-o{
+  @include header-fa-file-text-o();
+}
+form{
+  .am{
+    @include header-form-am();
+  }
+  .gnt{
+    @include header-form-gnt();
+  }
+  .gnt:hover{
+    @include header-form-gnt();
+  }
+}
+}
+h5{
+  font-family: 'Dancing Script', cursive;
+}
 }
 
 // for device of sm width

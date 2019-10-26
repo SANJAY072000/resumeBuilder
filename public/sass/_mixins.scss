@@ -1,0 +1,20 @@
+@mixin header-h1(){
+  font-family: 'Old Standard TT', serif;
+  font-size: 2em;
+  color: #333333;
+}
+@mixin header-fa-file-text-o(){
+  font-size: 2em;
+  background: linear-gradient(#FF512F,#DD2476);
+  -webkit-background-clip:text;
+  color: transparent;
+}
+@mixin header-form-am(){
+  height:45px;
+  border: 2px solid #444444;
+}
+@mixin header-form-gnt(){
+  background-color: #333333;
+  color: #fff;
+  font-size: 1.3em;
+}
