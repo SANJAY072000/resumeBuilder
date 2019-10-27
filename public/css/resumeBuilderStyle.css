@@ -1,24 +1,27 @@
-body header h1 {
-  font-family: 'Old Standard TT', serif;
-  font-size: 2em;
-  color: #333333; }
-body header .fa-file-text-o {
-  font-size: 2em;
-  background: linear-gradient(#FF512F, #DD2476);
-  -webkit-background-clip: text;
-  color: transparent; }
-body header form .am {
-  height: 45px;
-  border: 2px solid #444444; }
-body header form .gnt {
-  background-color: #333333;
-  color: #fff;
-  font-size: 1.3em; }
-body header form .gnt:hover {
-  background-color: #333333;
-  color: #fff;
-  font-size: 1.3em; }
-body h5 {
-  font-family: 'Dancing Script', cursive; }
+body {
+  background: url(../images/Desktop.png) no-repeat center center fixed;
+  background-size: cover; }
+  body header h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2em;
+    color: #333333; }
+  body header .fa-file-text-o {
+    font-size: 2em;
+    background: linear-gradient(#FF512F, #DD2476);
+    -webkit-background-clip: text;
+    color: transparent; }
+  body header form .am {
+    height: 45px;
+    border: 2px solid #444444; }
+  body header form .gnt {
+    background-color: #333333;
+    color: #fff;
+    font-size: 1.3em; }
+  body header form .gnt:hover {
+    background-color: #333333;
+    color: #fff;
+    font-size: 1.3em; }
+  body h5 {
+    font-family: 'Dancing Script', cursive; }
 
 /*# sourceMappingURL=resumeBuilderStyle.css.map */

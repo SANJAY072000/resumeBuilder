@@ -53,6 +53,7 @@ og3:#758AA2
 
 // for device of xs width
 body{
+@include body();
 header{
 h1{
   @include header-h1();

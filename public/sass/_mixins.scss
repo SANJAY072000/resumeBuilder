@@ -18,3 +18,8 @@
   color: #fff;
   font-size: 1.3em;
 }
+@mixin body(){
+  background: url(../images/Desktop.png)
+  no-repeat center center fixed;
+  background-size: cover;
+}
