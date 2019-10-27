@@ -76,6 +76,30 @@ form{
 h5{
   font-family: 'Dancing Script', cursive;
 }
+section{
+  .container{
+    border-top: 15px solid #e172e8;
+    background-color: #fff;
+  h2{
+    font-family: 'Old Standard TT', serif;
+    color: #333333;
+  }
+  p{
+    color: #333333;
+    font-family: 'Satisfy', cursive;
+  }
+  h4{
+  font-family: 'Dancing Script', cursive;
+  color: #333333;
+  }
+  .esp{
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
+  .lu{
+    list-style-type: none;
+  }
+}
+}
 }
 
 // for device of sm width
@@ -89,7 +113,21 @@ h5{
 // for device of md width
 @media (min-width:768px){
   body{
-
+section{
+  .container{
+    background-color: #fff;
+  h1{
+    font-family: 'Old Standard TT', serif;
+    color: #333333;
+  }
+  p{
+    color: #333333;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2em;
+  }
+}
+}
   }
 }
 

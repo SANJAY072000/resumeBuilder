@@ -23,5 +23,33 @@ body {
     font-size: 1.3em; }
   body h5 {
     font-family: 'Dancing Script', cursive; }
+  body section .container {
+    border-top: 15px solid #e172e8;
+    background-color: #fff; }
+    body section .container h2 {
+      font-family: 'Old Standard TT', serif;
+      color: #333333; }
+    body section .container p {
+      color: #333333;
+      font-family: 'Satisfy', cursive; }
+    body section .container h4 {
+      font-family: 'Dancing Script', cursive;
+      color: #333333; }
+    body section .container .esp {
+      font-family: 'ZCOOL XiaoWei', serif; }
+    body section .container .lu {
+      list-style-type: none; }
+
+@media (min-width: 768px) {
+  body section .container {
+    background-color: #fff; }
+    body section .container h1 {
+      font-family: 'Old Standard TT', serif;
+      color: #333333; }
+    body section .container p {
+      color: #333333;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Satisfy', cursive;
+      font-size: 1.2em; } }
 
 /*# sourceMappingURL=resumeBuilderStyle.css.map */
