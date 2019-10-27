@@ -23,3 +23,36 @@
   no-repeat center center fixed;
   background-size: cover;
 }
+@mixin section-container(){
+  border-top: 15px solid #e172e8;
+  background-color: #fff;
+}
+@mixin c-h1(){
+  font-family: 'Old Standard TT', serif;
+  color: #333333;
+}
+@mixin c-p(){
+  color: #333333;
+  font-family: 'Satisfy', cursive;
+}
+@mixin c-h4(){
+  font-family: 'Dancing Script', cursive;
+  color: #333333;
+}
+@mixin lu-li(){
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 1.3em;
+  background: linear-gradient(#ee0979,#ff6a00);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@mixin lu-h3(){
+  color: #990003;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+@mixin cmd-p(){
+  color: #333333;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2em;
+}

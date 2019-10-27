@@ -39,6 +39,15 @@ body {
       font-family: 'ZCOOL XiaoWei', serif; }
     body section .container .lu {
       list-style-type: none; }
+      body section .container .lu li {
+        font-family: 'ZCOOL XiaoWei', serif;
+        font-size: 1.3em;
+        background: linear-gradient(#ee0979, #ff6a00);
+        -webkit-background-clip: text;
+        color: transparent; }
+    body section .container h3 {
+      color: #990003;
+      font-family: 'ZCOOL XiaoWei', serif; }
 
 @media (min-width: 768px) {
   body section .container {

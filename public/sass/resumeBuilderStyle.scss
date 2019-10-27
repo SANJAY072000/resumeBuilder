@@ -78,25 +78,27 @@ h5{
 }
 section{
   .container{
-    border-top: 15px solid #e172e8;
-    background-color: #fff;
+    @include section-container();
   h2{
-    font-family: 'Old Standard TT', serif;
-    color: #333333;
+    @include c-h1();
   }
   p{
-    color: #333333;
-    font-family: 'Satisfy', cursive;
+    @include c-p();
   }
   h4{
-  font-family: 'Dancing Script', cursive;
-  color: #333333;
+  @include c-h4();
   }
   .esp{
     font-family: 'ZCOOL XiaoWei', serif;
   }
   .lu{
     list-style-type: none;
+    li{
+      @include lu-li();
+    }
+  }
+  h3{
+    @include lu-h3();
   }
 }
 }
@@ -117,14 +119,10 @@ section{
   .container{
     background-color: #fff;
   h1{
-    font-family: 'Old Standard TT', serif;
-    color: #333333;
+  @include c-h1();
   }
   p{
-    color: #333333;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Satisfy', cursive;
-    font-size: 1.2em;
+    @include cmd-p();
   }
 }
 }
