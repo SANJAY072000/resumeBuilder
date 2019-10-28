@@ -5,7 +5,7 @@
 }
 @mixin header-fa-file-text-o(){
   font-size: 2em;
-  background: linear-gradient(#FF512F,#DD2476);
+  background: linear-gradient(#FF512F,#ee0979);
   -webkit-background-clip:text;
   color: transparent;
 }
@@ -25,6 +25,9 @@
 }
 @mixin section-container(){
   border-top: 15px solid #e172e8;
+  border-bottom: 15px solid #e172e8;
+  border-left: 15px solid #654ea3;
+  border-right: 15px solid #654ea3;
   background-color: #fff;
 }
 @mixin c-h1(){
@@ -42,9 +45,7 @@
 @mixin lu-li(){
   font-family: 'ZCOOL XiaoWei', serif;
   font-size: 1.3em;
-  background: linear-gradient(#ee0979,#ff6a00);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #ee0979;
 }
 @mixin lu-h3(){
   color: #990003;

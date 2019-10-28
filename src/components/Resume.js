@@ -95,8 +95,12 @@ export default class Resume extends Component {
   }
   render(){
     return(
-      <section className='mt-5'>
-      <div className='container p-5 rounded'>
+      <section className=''>
+      <div className='d-flex justify-content-left pl-5 mt-5'>
+      <button className='btn btn-danger btn-sm' onClick={()=>window.print()}>
+      Print this out !</button>
+      </div>
+      <div className='container p-5 rounded mt-5' id='pi'>
       <div className='row'>
       <div className='col-md-6 d-block d-md-none'>
       <img src={this.state.img} className='img-fluid d-block mx-auto rounded-circle' width='300' height='250' alt='Unavailable'/>
@@ -206,6 +210,20 @@ export default class Resume extends Component {
             </div>)}
             </div>
             </div>
+            <br/>
+            <hr/>
+              <div className='row mt-5'>
+              <div className='col-md-3'>
+              <h4 className='pl-3 font-weight-bolder mt-2 d-none d-md-block'>About This Résumé</h4>
+              <h4 className='pl-3 font-weight-bolder d-block d-md-none'>About This Résumé</h4>
+              </div>
+              <div className='col-md-9'>
+              <p className='lead pl-5 esp mt-1'>
+              This résumé is generated automatically using public information from the developer's GitHub account. The repositories are ordered based on their popularity. Do not hesitate to visit
+              <a href={`https://github.com/${this.props.match.params.username}`} target='_blank' rel="noopener noreferrer"> {`${this.state.name}'s GitHub page`}</a> for a complete work history.
+              </p>
+              </div>
+              </div>
       </div>
       </section>
     );

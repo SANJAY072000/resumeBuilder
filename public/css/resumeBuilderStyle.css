@@ -7,7 +7,7 @@ body {
     color: #333333; }
   body header .fa-file-text-o {
     font-size: 2em;
-    background: linear-gradient(#FF512F, #DD2476);
+    background: linear-gradient(#FF512F, #ee0979);
     -webkit-background-clip: text;
     color: transparent; }
   body header form .am {
@@ -25,6 +25,9 @@ body {
     font-family: 'Dancing Script', cursive; }
   body section .container {
     border-top: 15px solid #e172e8;
+    border-bottom: 15px solid #e172e8;
+    border-left: 15px solid #654ea3;
+    border-right: 15px solid #654ea3;
     background-color: #fff; }
     body section .container h2 {
       font-family: 'Old Standard TT', serif;
@@ -42,9 +45,7 @@ body {
       body section .container .lu li {
         font-family: 'ZCOOL XiaoWei', serif;
         font-size: 1.3em;
-        background: linear-gradient(#ee0979, #ff6a00);
-        -webkit-background-clip: text;
-        color: transparent; }
+        color: #ee0979; }
     body section .container h3 {
       color: #990003;
       font-family: 'ZCOOL XiaoWei', serif; }
