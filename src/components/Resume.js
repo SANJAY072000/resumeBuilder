@@ -18,7 +18,18 @@ export default class Resume extends Component {
       url:`https://api.github.com/users/${this.props.match.params.username}`
     })
     .then(res=>{
+    if(!res.data.name)
     this.setState({
+    name:this.props.match.params.username,
+    img:res.data.avatar_url,
+    bio:res.data.bio,
+    created_at:res.data.created_at.split('-')[0],
+    location:res.data.location,
+    repos:res.data.public_repos,
+    followers:res.data.followers,
+    blog:res.data.blog
+    });
+    else this.setState({
     name:res.data.name,
     img:res.data.avatar_url,
     bio:res.data.bio,
