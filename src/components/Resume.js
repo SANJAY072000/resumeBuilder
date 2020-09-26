@@ -10,10 +10,6 @@ export default class Resume extends Component {
       url:'https://api.github.com/repos/SANJAY072000/resumeBuilder/stargazers'
     })
     .then(res=>{
-    if(!(res.data.filter(a=>
-    a.login.toString()===this.props.match.params.username.toString()).length))
-    this.props.history.push(`/`);
-    else{
     axios({
       url:`https://api.github.com/users/${this.props.match.params.username}`
     })
@@ -59,7 +55,6 @@ export default class Resume extends Component {
     this.setState({lang:arr});
     })
     .catch(err=>console.log(err));
-    }
     })
     .catch(err=>console.log(err));
     axios({
