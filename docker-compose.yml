@@ -1,0 +1,19 @@
+version: "3.9"
+services: 
+    react-app:
+        image: react-app
+        build: .
+        stdin_open: true
+        ports: 
+            - "3000:3000"
+        networks: 
+            - mern-app
+        volumes: 
+            - .:/usr/src/app
+            - /usr/src/app/node_modules
+        environment: 
+            - CHOKIDAR_USEPOLLING=true
+
+networks:
+    mern-app:
+        driver: bridge
